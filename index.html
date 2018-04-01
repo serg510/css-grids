@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Css Grids</title>
+  <style> .wrapper{
+    display:grid;
+    grid-template-columns:70% 30%;
+    
+    /* grid-column-gap:1em;
+    grid-row-gap:1em;
+     */
+    grid-gap:1em;
+
+  }
+  
+  .wrapper > div{
+    background:#eee;
+    padding:1em;
+  }
+    .wrapper >div:nth-child(odd){
+      background:#ddd;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, iure rerum illo voluptates non! Magnam magni assumenda repudiandae ipsum mollitia consequatur dolorem. Quia velit inventore deserunt sit nam unde natus nemo repellendus dignissimos consequuntur? Maiores illum nobis laudantium cumque doloremque quidem, vitae nisi. Impedit amet ratione excepturi deleniti reprehenderit deserunt sit doloremque. Quos quidem, vel exercitationem repellat iusto perferendis excepturi omnis ducimus dolore alias eos, aspernatur nulla nesciunt sint nam repellendus suscipit, qui animi doloribus deserunt quod ab molestiae!
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit incidunt eius exercitationem, quaerat omnis placeat aspernatur rem consectetur obcaecati soluta deserunt beatae expedita amet officia aperiam blanditiis eum at!
+
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, iure rerum illo voluptates non! Magnam magni assumenda repudiandae ipsum mollitia consequatur dolorem. Quia velit inventore deserunt sit nam unde natus nemo repellendus dignissimos consequuntur? Maiores illum nobis laudantium cumque doloremque quidem, vitae nisi. Impedit amet ratione excepturi deleniti reprehenderit deserunt sit doloremque. Quos quidem, vel exercitationem repellat iusto perferendis excepturi omnis ducimus dolore alias eos, aspernatur nulla nesciunt sint nam repellendus suscipit, qui animi doloribus deserunt quod ab molestiae!
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit incidunt eius exercitationem, quaerat omnis placeat aspernatur rem consectetur obcaecati soluta deserunt beatae expedita amet officia aperiam blanditiis eum at!
+      
+    </div>
+   
+  </div>
+
+</body>
+</html>
